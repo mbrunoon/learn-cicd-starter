@@ -1,6 +1,4 @@
-https://github.com/mbrunoon/learn-cicd-starter/actions/workflows/ci.yml/badge.svg
-
-![alt text goes here](IMAGE_URL)
+![CI Badge](https://github.com/mbrunoon/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
