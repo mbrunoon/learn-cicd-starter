@@ -43,7 +43,7 @@ jobs:
             --tag us-central1-docker.pkg.dev/bootcdci/notely-ar-repo/notely:latest .
 
       - name: Install Goose
-        uses: mscno/setup-goose@v1
+        run: go install github.com/pressly/goose/v3/cmd/goose@latest
 
       - name: Migrations Up
         run: scripts/migrateup.sh
